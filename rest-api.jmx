@@ -34,7 +34,7 @@
           </elementProp>
           <elementProp name="server" elementType="Argument">
             <stringProp name="Argument.name">server</stringProp>
-            <stringProp name="Argument.value">please.replace.this.value.with.your.cas.server.local</stringProp>
+            <stringProp name="Argument.value">${__P(server)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="port" elementType="Argument">
